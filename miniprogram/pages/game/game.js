@@ -1,4 +1,4 @@
-const app = getApp()
+var app = getApp()
 
 Page({
 
@@ -336,8 +336,8 @@ Page({
       wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得秀才——一秀',
-        
-      })
+
+        })
     else if(this.data.four_count==2)
       wx.showModal({
         title: '您的结果是',

@@ -37,7 +37,7 @@
 
   </view>
   <button  style="border-radius: 50rpx; width: 50% ; font-size: 50rpx;" bindtap="setting_is_ok">
-设置完成
+确定
   </button>
 
 

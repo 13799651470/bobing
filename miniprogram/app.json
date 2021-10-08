@@ -4,7 +4,7 @@
     "pages/index/index",
     "pages/result/result",
     "pages/join/join",
-    "pages/help/help",
+    "pages/history/history",
     "pages/mine/mine",
      "pages/game/game",
     "pages/rules/rules",
@@ -34,17 +34,11 @@
             "text": "首页"
         },
         {
-            "selectedIconPath": "images/帮助与反馈.png",
-            "iconPath": "images/帮助与反馈-0.png",
-            "pagePath": "pages/help/help",
-            "text": "帮助与反馈"
-        },
-        {
-            "selectedIconPath": "images/我的.png",
-            "iconPath": "images/我的-0.png",
-            "pagePath": "pages/mine/mine",
-            "text": "我的"
-        } 
+            "selectedIconPath": "images/历史记录-0.png",
+            "iconPath": "images/历史记录.png",
+            "pagePath": "pages/history/history",
+            "text": "历史中奖记录"
+        }
     ]
 },
   "sitemapLocation": "sitemap.json",

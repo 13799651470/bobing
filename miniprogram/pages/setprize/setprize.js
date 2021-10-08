@@ -75,13 +75,26 @@ Page({
     })
     console.log(e.detail.value)
     },
-    setting_is_ok: function () {
-      wx.showToast({
-        title: '设置成功',
-        icon:'success'
-      })
-      wx.navigateTo({
-        url: '../index',
-      })
-    }
+  
+  setting_is_ok: function () {
+    wx.showModal({
+      title: '设置成功',
+      showCancel: true,//是否显示取消按钮
+      content: '是否需要重新设置？',
+      cancelText:"重新设置",//默认是“取消”
+      cancelColor:'skyblue',//取消文字的颜色
+      confirmText:"返回主页",//默认是“确定”
+      confirmColor: 'skyblue',//确定文字的颜色
+      success: function (res) {
+        if (res.cancel) {
+               //点击取消,默认隐藏弹框
+          } else {
+               //点击确定
+               wx.navigateBack({
+                 delta: 0,
+                })
+               }
+            }
+         })
+  }
 })

@@ -1,11 +1,16 @@
-// pages/mine/mine.js
+// pages/history/history.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        num1:0,
+        num2:0,
+        num3:0,
+        num4:0,
+        num5:0,
+        num6:0
     },
 
     /**
@@ -47,7 +52,9 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh: function () {
-
+        // this.setData({
+        //     num1:
+        // })
     },
 
     /**

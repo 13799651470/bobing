@@ -17,21 +17,3 @@
     <button style="width: 45%; height: 55px; background-color: #5992AD; margin-top: 20px; color: white;border-radius: 40rpx;" bindtap="check"><text>查看结果</text></button>
 </view>
 
-
-<!-- <view>
-  <image class="background" src="../../images/游戏界面背景.jpg" mode="aspectFill"></image>
-</view>
-<view>
-<button style="width: 80%; background-color: lightgreen; margin-top: 10px;" bindtap="randomNum">点击开始掷骰子</button>
-</view>
-<view class="container" >
-    <image class="image_style" src="{{image2}}">{{num2}}</image>
-    <image class="image_style" src="{{image1}}">{{num1}}</image>
-    <image class="image_style" src="{{image3}}">{{num3}}</image>
-    <image class="image_style" src="{{image4}}">{{num4}}</image>
-    <image class="image_style" src="{{image5}}">{{num5}}</image>
-    <image class="image_style" src="{{image6}}">{{num6}}</image>
-</view>
-<view>
-    <button style="width: 80%; background-color: lightgreen;" bindtap="check">查看结果</button>
-</view> -->

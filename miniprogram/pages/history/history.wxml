@@ -1,0 +1,32 @@
+<view>
+
+<image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{1}}"></image>
+</view>
+
+<view class="container" >
+    <text class="text_style">
+        <text class="text_style_1">状元</text>
+        <text class="text_style_2">{{num1}}</text>
+    </text>
+    <text class="text_style">
+        <text class="text_style_1">榜眼</text>
+        <text class="text_style_2">{{num2}}</text>
+    </text>
+    <text class="text_style">
+        <text class="text_style_1">探花</text>
+        <text class="text_style_2">{{num3}}</text>
+    </text>
+    <text class="text_style">
+        <text class="text_style_1">进士</text>
+        <text class="text_style_2">{{num4}}</text>
+    </text>
+    <text class="text_style">
+        <text class="text_style_1">举人</text>
+        <text class="text_style_2">{{num5}}</text>
+    </text>
+    <text class="text_style">
+        <text class="text_style_1">秀才</text>
+        <text class="text_style_2">{{num6}}</text>
+    </text>
+</view>
+
