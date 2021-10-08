@@ -1,4 +1,4 @@
-var app = getApp()
+var app = getApp();
 
 Page({
 
@@ -24,7 +24,8 @@ Page({
     image3:"../../images/one_image.png",
     image4:"../../images/one_image.png",
     image5:"../../images/one_image.png",
-    image6:"../../images/one_image.png"
+    image6:"../../images/one_image.png",
+    t:0
   },
 
   /**
@@ -332,80 +333,115 @@ Page({
     }
   },
   check: function () {
-    if(this.data.four_count==1)
-      wx.showModal({
+    if(this.data.four_count==1){
+    getApp().globalData.xiucai_sum = getApp().globalData.xiucai_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得秀才——一秀',
-
         })
-    else if(this.data.four_count==2)
-      wx.showModal({
+    }
+      
+    else if(this.data.four_count==2){
+    getApp().globalData.juren_sum = getApp().globalData.juren_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得举人——二举',
         
       })
-    else if(this.data.two_count==4)
-      wx.showModal({
+    }
+      
+    else if(this.data.two_count==4){
+    getApp().globalData.jinshi_sum = getApp().globalData.jinshi_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得进士——四进',
         
       })
-    else if(this.data.four_count==3)
-      wx.showModal({
+    }
+      
+    else if(this.data.four_count==3){
+    getApp().globalData.tanhua_sum = getApp().globalData.tanhua_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得探花——三红',
         
       })
-    else if(this.data.one_count==1&&this.data.two_count==1&&this.data.three_count==1&&this.data.four_count==1&&this.data.five_count==1&&this.data.six_count==1)
-      wx.showModal({
+    }
+      
+    else if(this.data.one_count==1&&this.data.two_count==1&&this.data.three_count==1&&this.data.four_count==1&&this.data.five_count==1&&this.data.six_count==1){
+    getApp().globalData.bangyan_sum = getApp().globalData.bangyan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得榜眼——对堂',
         
       })
+    }
+      
     else if(this.data.four_count==4){
-      if(this.data.one_count==2)
-        wx.showModal({
+      if(this.data.one_count==2){
+        getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+        wx.showModal({
           title: '您的结果是',
           content: '恭喜你获得状元——金花',
           
-        })
-      else
-        wx.showModal({
+            })
+        }
+        
+      else{
+        getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+        wx.showModal({
           title: '您的结果是',
           content: '恭喜你获得状元——四点红',
           
-        })
+            })
+        }
+        
     }
-    else if(this.data.four_count==6)
-      wx.showModal({
+    else if(this.data.four_count==6){
+    getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得状元——六杯红',
         
-      })
-    else if(this.data.one_count==6)
-      wx.showModal({
+      })    
+    }
+      
+    else if(this.data.one_count==6){
+    getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得状元——遍地锦',
         
       })
-    else if(this.data.six_count==6)
-      wx.showModal({
+    }
+      
+    else if(this.data.six_count==6){
+    getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得状元——六杯黑',
         
       })
-    else if(this.data.four_count==5)
-      wx.showModal({
+    }
+      
+    else if(this.data.four_count==5){
+    getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得状元——五红',
         
       })
-    else if(this.data.five_count==5)
-      wx.showModal({
+    }
+      
+    else if(this.data.five_count==5){
+    getApp().globalData.zhuangyuan_sum = getApp().globalData.zhuangyuan_sum + 1;
+    wx.showModal({
         title: '您的结果是',
         content: '恭喜你获得状元——五子登科',
         
       })
+    }
+      
     else
       wx.showModal({
         title: '您的结果是',
