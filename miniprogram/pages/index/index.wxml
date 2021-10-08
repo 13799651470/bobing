@@ -1,0 +1,57 @@
+<!--index.wxml-->
+ <!-- <view class="content">
+
+	<image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{1}}"></image>
+   <view class="view_style" style="height: 1070rpx;">
+    <button class="btn_style" bindtap="click1">单机</button>
+    <button class="btn_style" bindtap="click2">联机</button>
+    <button class="btn_style" bindtap="click3">规则查看</button>
+    <button class="btn_style" bindtap="click4">奖品设置</button>
+  </view>
+</view>  -->
+
+
+
+
+ <!-- <view class="container">
+  <image  src="../../images/background-index" class="backgroud">
+  </image>
+  <view class="view_style" style="height: 1070rpx;">
+    <button class="btn_style" bindtap="click1">单机</button>
+    <button class="btn_style" bindtap="click2">联机</button>
+    <button class="btn_style" bindtap="click3">规则查看</button>
+    <button class="btn_style" bindtap="click4">奖品设置</button>
+  </view>
+  
+</view>  -->
+
+
+
+
+
+<view class="content">
+  <image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{1}}"></image>
+<!--页面其它部分-->
+  <view style="height: 100px;"></view>
+  <button class="btn_style" style="width:50vw;height:10vh"  bindtap="click1">
+  <text>
+  单机
+  </text>
+  </button>
+  <button class="btn_style" style="width:50vw;height:10vh"  bindtap="click2">
+  <text>
+  联机
+  </text>
+  </button>
+  <button class="btn_style" style="width:50vw;height:10vh" bindtap="click3">
+  <text>
+  规则查看
+  </text>
+  </button>
+  <button class="btn_style" style="width:50vw;height:10vh" bindtap="click4">
+  <text>
+  奖品设置
+  </text>
+  </button>
+
+</view>

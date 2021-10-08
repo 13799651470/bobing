@@ -1,0 +1,17 @@
+view{
+  margin-top: 400rpx;
+  display: flex;
+  justify-content: center;
+  
+}
+form{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  background-color:hsl(39, 64%, 65%);
+  display: flex;
+  justify-content: center;
+  margin-top: 200rpx;
+  color:#fff;
+}

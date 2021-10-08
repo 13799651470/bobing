@@ -1,0 +1,4 @@
+/* pages/rules/rules.wxss */
+page{
+  height: 100%
+}

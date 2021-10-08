@@ -1,0 +1,44 @@
+
+<image class="background" style="opacity:{{0.75}}" src="../../images/游戏界面背景.jpg" mode="aspectFill"></image>
+
+<view class="container">
+
+
+<view style="width: 100%;" class="setprize" >
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;">状元：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;" bindinput="ZYinput"/>
+</view> 
+<view style="width: 100%;" class="setprize">
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;">榜眼：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;"/>
+</view> 
+<view style="width: 100%;" class="setprize">
+    
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;">探花：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;"/>
+</view> 
+<view style="width: 100%;" class="setprize">
+   
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;"> 进士：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;"/>
+</view> 
+<view style="width: 100%;" class="setprize">
+   
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;"> 举人：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;"/>
+</view> 
+<view style="width: 100%;" class="setprize">
+    
+    <text style="color: #DC412B; font-family:monospace; font-size: 60rpx; font-weight: bold;">秀才：</text>
+    <input type="text" placeholder="请输入奖品" class="input" style="font-size: 50rpx;"/>
+</view> 
+
+  
+
+  </view>
+  <button  style="border-radius: 50rpx; width: 50% ; font-size: 50rpx;" bindtap="setting_is_ok">
+设置完成
+  </button>
+
+
+

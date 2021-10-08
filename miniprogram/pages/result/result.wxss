@@ -1,0 +1,15 @@
+text{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 80rpx;
+  color: burlywood;
+  margin-bottom: 50rpx;
+  display:flex;
+  justify-content: center;
+}
+.button01{
+  /* width:200rpx; */
+  margin-top: 400rpx;
+}
+.button02{
+  margin-top: 30rpx;
+}

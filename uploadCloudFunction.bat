@@ -1,0 +1,1 @@
+"D:\softs\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-5go2fclrca890693 --n quickstartFunctions --r --project "C:\Users\Caijingjing\Desktop\博饼小程序" --report_first --report
