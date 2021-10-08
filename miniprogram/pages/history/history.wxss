@@ -11,18 +11,20 @@ page {
 }
 
 .container {
+  
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 100%;
+    height: 60%;
+    align-items: center;
 }
 
 .text_style {
-    width: 300rpx;
+    width: 200rpx;
     height: 200rpx;
     border-radius: 70rpx;
-    background-color: #5992AD;
+    background-color: #f0cda0;
     margin-top: 20px;
     margin-bottom: 15px;
     display: flex;

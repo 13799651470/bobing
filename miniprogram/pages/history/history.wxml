@@ -2,7 +2,7 @@
 
 <image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{1}}"></image>
 </view>
-
+<view style="height: 20%;"></view>
 <view class="container" >
     <text class="text_style">
         <text class="text_style_1">状元</text>
