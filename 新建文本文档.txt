@@ -1,0 +1,37 @@
+
+| 这个作业属于哪个课程  | [构建之法-2021秋-福州大学软件工程](https://bbs.csdn.net/forums/fzuSoftwareEngineering2021) |
+----------------- |--------------- | 
+| 这个作业要求在哪里| [2021秋软工实践第一次结对编程作业](https://bbs.csdn.net/topics/600574694) | 
+| 这个作业的目标 | 学习利用原型模型设计工具以及原型模型的设计|
+| 学号 | 031902234 |
+
+@[TOC](目录)
+## 结对小伙伴
+结对小伙伴：周佳佳 （学号：031902244）
+结对小伙伴的作业博客地址：
+照片：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/209ed3c3dc014c74b499db2df126182d.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LiW55WM5Y2r55Sf57uE57uH5YWz5b-D5oKoIDogKQ==,size_19,color_FFFFFF,t_70,g_se,x_16#pic_center)
+
+地点在活动室（空气清香四溢、清香怡人，环境温馨、舒心）
+## PSP
+PSP     | Personal Software Process Stages| 预估耗时（分钟）| 实际耗时（分钟）
+-------- | ----- | -------- | --------
+Planning | 计划|30|20
+Estimate  | 估计这个任务需要多少时间|755|1130
+Analysis |需求分析 (包括学习新技术)|240|400
+Coding Standard  |代码规范 (为目前的开发制定合适的规范)|0|0
+Design |具体设计|360|400
+Coding |具体编码|0|0|
+Code Review|代码复审|0|0
+Test|测试（自我测试，修改代码，提交修改）|0|0|
+Size Measurement|计算工作量|5|10
+Postmortem & Process Improvement Plan	|事后总结, 并提出过程改进计划|120|300
+
+##  需求分析 
+
+
+## 原型模型
+原型开发工具：墨刀
+原型展示在线链接：[here](https://modao.cc/app/c92b09b1e2050aac0ca024d08a1cb9c7a748a4d2%20%E3%80%8A%E5%8D%9A%E9%A5%BC%E5%B0%8F%E6%B8%B8%E6%88%8F%E3%80%8B)
+## 总结
+
