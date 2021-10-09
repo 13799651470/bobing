@@ -1,25 +1,35 @@
-
 <view class="content">
 
-  <image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{1}}"></image>
-<!--页面其它部分-->
-  <view style="height: 100px;"></view>
-  <button class="btn_style" style="width:50vw;height:10vh"  bindtap="click1">
-     <text>
+  <!-- 设置背景图片 -->
+
+  <image class="v-background"
+         src="../../images/background-index.jpg"
+         mode="aspectFill"
+    >
+  </image>
+
+  <!-- 设置一块空白区域 -->
+
+  <view class="v-blank"></view>
+
+  <!--设置按钮样式-->
+
+  <button class="v-btn" bindtap="onClick1">
+    <text>
       单机
-     </text>
+    </text>
   </button>
-  <button class="btn_style" style="width:50vw;height:10vh"  bindtap="click2">
+  <button class="v-btn" bindtap="onClick2">
     <text>
       联机
     </text>
   </button>
-  <button class="btn_style" style="width:50vw;height:10vh" bindtap="click3">
+  <button class="v-btn" bindtap="onClick3">
     <text>
       规则查看
     </text>
   </button>
-  <button class="btn_style" style="width:50vw;height:10vh" bindtap="click4">
+  <button class="v-btn" bindtap="onClick4">
     <text>
       奖品设置
     </text>

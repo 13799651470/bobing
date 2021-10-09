@@ -2,17 +2,11 @@
   "pages": [
     
     "pages/index/index",
-    "pages/result/result",
-    "pages/join/join",
     "pages/history/history",
-    "pages/mine/mine",
      "pages/game/game",
     "pages/rules/rules",
     "pages/setprize/setprize",
-    "pages/demo01/demo01",
-    "pages/prize_query/prize_query",
-    
-    "pages/creat/index"
+    "pages/demo1/demo1"
     
   ],
   "window": {

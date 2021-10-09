@@ -1,6 +1,0 @@
-<!--页面根标签-->
-<view class="content">
-	<!--pics文件夹下的background.jpg文件-->
-	<image class='background' src="../../images/background-index.jpg" mode="aspectFill" style="opacity:{{0.5}}"></image>
-	<!--页面其它部分-->
-</view>
